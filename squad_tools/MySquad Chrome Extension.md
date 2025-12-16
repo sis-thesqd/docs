@@ -1,6 +1,5 @@
 # MySquad Chrome Extension
 
-> [!NOTE]
 > **Download the MySquad Chrome Extension:**
 > [Chrome Web Store](https://chromewebstore.google.com/detail/mysquad/accdcbpmoifgecjahfoabamdgjbnmnfb?authuser=0&hl=en)
 
