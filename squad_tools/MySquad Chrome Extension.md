@@ -1,3 +1,12 @@
+---
+title: "MySquad Chrome Extension"
+author: "Jacob Vendramin"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["chrome extension"]
+version: "1.0.0"
+---
+
 # MySquad Chrome Extension
 
 > &nbsp;&nbsp;&nbsp;&nbsp;📥 &nbsp;&nbsp;**Download the MySquad Chrome Extension:** **[Chrome Web Store](https://chromewebstore.google.com/detail/mysquad/accdcbpmoifgecjahfoabamdgjbnmnfb?authuser=0&hl=en)**

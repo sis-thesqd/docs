@@ -1,3 +1,12 @@
+---
+title: "Scan for Restored Deleted Tasks"
+author: "Jacob Vendramin"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["supabase"]
+version: "1.0.0"
+---
+
 # Scan for Restored Deleted Tasks
 
 > **Workflow ID:** `EHvKpkl54FMFhv2a`
