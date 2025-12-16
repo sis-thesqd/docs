@@ -4,401 +4,243 @@
 > **Download the MySquad Chrome Extension:**
 > [Chrome Web Store](https://chromewebstore.google.com/detail/mysquad/accdcbpmoifgecjahfoabamdgjbnmnfb?authuser=0&hl=en)
 
-The MySquad Chrome Extension is a comprehensive tool designed for managing tasks, team members, and various squad operations. It provides quick access to essential features and information directly from your browser.
-
-## Access Permissions
-
-- **Executives and SIS Team Members:** Full access to all pages
-- **Other Users:** Access only to pages pertinent to their role
+Your all-in-one tool for managing tasks, assignments, and team operations right from your browser. Access everything you need without switching between tabs or applications.
 
 # Table of Contents
 
-1. [Details](#details)
-2. [Internal Comments](#internal-comments)
-3. [Creative Tools](#creative-tools)
-4. [Designer Scheduling](#designer-scheduling)
-5. [SM Squad](#sm-squad)
-6. [Admin](#admin)
-7. [Squad Tools](#squad-tools)
-8. [Settings](#settings)
+1. [Getting Started](#getting-started)
+2. [Details](#details)
+3. [Internal Comments](#internal-comments)
+4. [Creative Tools](#creative-tools)
+5. [Designer Scheduling](#designer-scheduling)
+6. [SM Squad](#sm-squad)
+7. [Admin](#admin)
+8. [Squad Tools](#squad-tools)
+9. [Settings](#settings)
+
+---
+
+## Getting Started
+
+1. **Install:** Download the extension from the Chrome Web Store (link above)
+2. **Login:** Click the extension icon and sign in with your ClickUp account
+3. **Access Task Details:** Navigate to any ClickUp task in your browser to see detailed information
+
+The extension works with both regular and internal ClickUp tasks. For internal tasks, you'll see the actual task ID - not just the internal task ID - making it easier to reference and track tasks accurately.
 
 ---
 
 ## Details
 
-The Details page provides comprehensive information about ClickUp tasks. **Note:** This page only displays data when viewing a ClickUp task in your browser.
+Your command center for task information. Open any ClickUp task and see everything important at a glance.
 
-### Task Details Section
+### Quick Task Info
 
-Displays core task information:
-- **Task Title:** Full name of the task
-- **Task ID:** Unique identifier for the task
-- **Status:** Current task status (e.g., CLOSED, In Progress)
-- **Department:** Assigned department (e.g., Design Squad)
+See the essentials without scrolling through ClickUp:
+- Task title, ID, status, and assigned department
+- Direct link to the task's Dropbox folder (with quick copy button)
 
-### Dropbox Folder
+### Task Management
 
-Shows the associated Dropbox folder for the task with:
-- Folder name and path
-- Quick copy and folder icon buttons for easy access
+**Quick Actions:**
+- Update Dropbox folder location when files move
+- Refresh custom fields to sync latest data
+- Return a task to the queue for reassignment
+- Block tasks from being auto-assigned
 
-### Task Actions
+**Assignment Tools:**
+- Generate time estimates automatically
+- Find available designers who can take the task
+- View all assignment options at once
 
-Quick action buttons for common task operations:
-- **Refresh Dropbox Folder Location:** Update the Dropbox folder link
-- **Refresh Custom Fields:** Sync custom field data from ClickUp
-- **Add Back to Queue:** Return task to the assignment queue
-- **Block from Auto-Assignment:** Prevent automatic assignment
+### Account Information
 
-### Task Assignment Actions
+Check account details and capacity:
+- Account name and number
+- Active subscription plan and add-ons
+- Current task load (how many active tasks vs. capacity)
 
-Tools for managing task assignments:
-- **Generate Time Estimate:** Calculate estimated completion time
-- **Find Suitable Designer:** Locate available designers for the task
-- **Show Me Everything:** Expand to see all available options
+### Assignment Intelligence
 
-### Account & Plans
+Understand why a task was assigned to someone:
+- See the complete logic behind each assignment decision
+- View workload calculations and available time
+- Check how assignments fit into the designer's schedule
 
-Displays account-level information:
-- **Account Number:** Unique account identifier
-- **Account Name:** Full account name
-- **Plans:** Current subscription plan (e.g., Unlimited)
-- **Add-ons:** Active add-ons with dates (e.g., +CD (2025))
+### Designer Schedule
 
-### Active Tasks
-
-Shows current task load:
-- **Task Count:** Number of active tasks (e.g., 2/7)
-- **Visual Progress Bar:** Graphical representation of capacity
-
-### Auto-Assign Data
-
-Provides insights into the assignment decision:
-- **Status:** Assignment completion status
-- **Assignment Explanation:** Detailed reasoning including:
-  - Designer name and selection rationale
-  - Due date analysis
-  - Workday calculations
-  - Available minutes breakdown
-  - Execution timeline details
-
-### Daily Schedule
-
-Shows the designer's daily schedule with collapsible entries:
-- **Schedule Date:** Current date being viewed
-- **Task List:** All tasks scheduled for the day with:
-  - Task ID
-  - Task name
-  - Department indicator
-  - Estimated time
+See what's on the assigned designer's plate:
+- All tasks scheduled for the day
+- Time estimates for each task
+- Department indicators to spot workload balance
 
 ---
 
 ## Internal Comments
 
-The Internal Comments page provides a dedicated space for team communication on tasks.
+Keep team conversations organized and accessible. View and respond to internal task comments without leaving your current page.
 
-### Features
-
-- **Comment Thread:** Chronological display of internal comments
-- **Comment Input:** Text area for typing new internal comments with send button
-- **User Information:** Each comment shows:
-  - User name
-  - Role (e.g., Graphic Designer)
-  - Timestamp
-  - Avatar
-- **Rich Content:** Supports text and file attachments in comments
-- **Request Feature:** Link at bottom to request new features
+**What You Can Do:**
+- Read all internal comments on a task in chronological order
+- Add new comments with text and file attachments
+- See who said what and when, with names, roles, and timestamps
+- Keep discussions in one place so nothing gets lost
 
 ---
 
 ## Creative Tools
 
-This page provides tools and actions specific to creative workflow management.
+Your workflow management hub for creative tasks.
 
 ### Task Actions
 
-Quick access buttons for common task operations:
-- **Refresh Custom Fields:** Update task metadata
-- **Add Back to Queue:** Return task to assignment pool
-- **Block from Auto-Assignment:** Prevent automatic assignment (shown as disabled/inactive)
+Handle common scenarios quickly:
+- Sync latest custom field data
+- Send tasks back to the queue for reassignment
+- Prevent specific tasks from being auto-assigned
 
-### Task Assignment Actions
+### Assignment Management
 
-Tools for managing creative assignments:
-- **Generate Time Estimate:** Calculate task duration
-- **Find Suitable Designer:** Locate available team members
-- **Show Me Everything:** Expand to see all options
+- Calculate accurate time estimates
+- Find the right designer for the job
+- See all available assignment options
 
-### Designer's Daily Schedule
+### Workload Visibility
 
-View and manage the assigned designer's workload:
-- **Schedule Header:** Shows designer name and workload statistics
-  - Name (e.g., "Marcos Monti")
-  - Time allocated vs. available (e.g., "500min / 420min (119%)")
-- **Task List:** Detailed breakdown with columns:
-  - **Task ID:** Unique identifier
-  - **Name:** Task description
-  - **Department:** Visual indicator (colored circle)
-  - Sortable columns for organization
-
-### Request Feature
-
-Bottom link to submit feature requests for improvements.
+Check the assigned designer's full schedule:
+- See their daily task list
+- View time commitments (e.g., "500min / 420min (119%)")
+- Identify overbooked days at a glance
+- Sort and organize tasks by ID, name, or department
 
 ---
 
 ## Designer Scheduling
 
-The Designer Scheduling page provides tools for managing designer availability and assignments.
+Manage your team's capacity and availability in one place.
 
-### Search and Filter
+**Find Designers Fast:**
+- Search by name or email
+- Filter by department (Design, Video, Other)
+- See availability at a glance (e.g., "5d" = 5 days available)
 
-- **Search Bar:** Search designers by name or email
-- **Refresh Button:** Update designer availability data
-- **Add Button:** Add new designer to the system
-- **Filter Tabs:** Filter by type:
-  - All
-  - Design
-  - Video
-  - Other
+**Manage Schedules:**
+- Edit individual designer schedules
+- Add new team members
+- Refresh availability data
+- View contact information for quick communication
 
-### Designer List
-
-Scrollable list of all designers showing:
-- **Avatar:** Profile picture or initials
-- **Name:** Full designer name
-- **Availability:** Number of days available (e.g., "5d")
-- **Email:** Contact email address
-- **Edit Button:** Modify designer information
-
-### Features
-
-- Real-time availability updates
-- Quick access to edit designer schedules
-- Department-specific filtering
-- Availability indicators for easy capacity planning
-
-### Request Feature
-
-Link at bottom to request new scheduling features.
+**Why It's Useful:**
+No more guessing who's available or checking multiple calendars. See your entire team's capacity in seconds and make informed assignment decisions.
 
 ---
 
 ## SM Squad
 
-The SM Squad (Social Media Squad) page manages account-specific information.
+Centralize account information for the Social Media Squad.
 
-### Account Information Section
+**Account Details:**
+- Assign and update account coaches
+- Select the correct Bible translation
+- Link to photo libraries and SMS databases
+- Add detailed account notes that save automatically
 
-Key account details:
-- **Coach:** Assigned coach name with clear/edit functionality
-- **Bible Translation:** Dropdown to select Bible translation (with "Select bible translation..." placeholder)
-- **Photos Link:** Link status (shows "Not set" if not configured)
-- **SMS DB Link:** Database link for SMS tracking (shows full URL if set)
-
-### Account Notes Section
-
-- **Notes Text Area:** Large text field for adding account notes
-  - Placeholder: "Add notes about this account..."
-- **Status Indicator:** Shows "Up to date" when notes are saved
-
-### Features
-
-- Collapsible sections for better organization
-- Direct links to external resources
-- Quick edit functionality for all fields
-- Request feature link at bottom
+**Stay Organized:**
+All account-specific information in one place means less searching through emails or shared docs. Everyone on the team can access what they need instantly.
 
 ---
 
 ## Admin
 
-The Admin page provides access to secure credentials and administrative functions.
+Secure access to team credentials and API keys.
 
-### Vault Secrets
+**Vault Secrets:**
+Store and access sensitive information safely:
+- Search through all stored credentials
+- Add new secrets as needed
+- View credentials with one click
 
-Secure credential management system:
+**Common Secrets:**
+- API keys (Airtable, ClickUp, Supabase)
+- Database passwords
+- Integration tokens
 
-#### Search and Add
-- **Search Bar:** Search through stored secrets
-- **Add Secret Button:** Create new secret entries
-
-#### Secrets List
-
-Displays all stored credentials with:
-- **Secret Name:** Descriptive identifier
-- **Info Button:** View secret details
-
-**Example Secrets:**
-- Airtable_api_key_id
-- Full Access - Airtable
-- ClickUp App Bearer Token
-- supabase - squad-data password
-- supabase - airtable-sync-data
-- squad_crmn_key
-
-### Security
-
-- Credentials are stored securely
-- View-only access with info buttons
-- Organized alphabetically for easy reference
-
-### Request Feature
-
-Link at bottom to request new admin features.
+**Security Note:** All credentials are encrypted and only accessible to authorized team members.
 
 ---
 
 ## Squad Tools
 
-The Squad Tools page provides access to utilities, branding resources, and reporting tools.
+Everything you need for branding, reporting, and quick actions.
 
-### Actions Section
+### Report Issues
 
-Quick action buttons for common tasks:
-- **Bug Report:** Submit bug reports with icon indicator
-- **SIS Request:** Submit SIS-related requests
+- Submit bug reports directly to the development team
+- Request help from SIS for technical issues
 
-### Squad Colors
+### Brand Colors
 
-Comprehensive color palette for branding consistency:
+Never guess hex codes again. Access our complete color palette:
+- **Primary Colors:** Main brand colors for logos and headers
+- **Secondary Colors:** Supporting colors for designs
+- **Background Colors:** Subtle colors for layouts
 
-#### Primary Colors
-Grid of main brand colors with hex codes:
-- #341756 (Deep Purple)
-- #F9635D (Coral Red)
-- #513DE5 (Royal Blue)
-- #A960FF (Light Purple)
-- #F2AF39 (Golden Yellow)
-- #CC4291 (Magenta)
+All colors include hex codes for easy copying.
 
-#### Secondary Colors
-Supporting colors for design work:
-- #BCB3F9 (Pale Purple)
-- #DEC1FF (Lavender)
-- #EBB8EC3 (Soft Pink)
-- #FFDB9B (Pale Yellow)
-- #FFA8A4 (Light Coral)
-- #FFB48B (Peach)
+### Brand Assets
 
-#### Light Background Colors
-Subtle colors for backgrounds:
-- #FFFCF4 (Off White)
-- #F3F1FF (Pale Lavender)
-- #DCD8FA (Light Periwinkle)
-- #DFDBFF (Soft Blue)
-- #F5ECFF (Pale Purple)
-- #FFE4F3 (Light Pink)
-- Additional background options with hex codes
+Download logos, badges, and graphics instantly:
+- Search by filename
+- Filter by type or category
+- Preview thumbnails before downloading
+- Access multiple color variants (black, blue, etc.)
 
-### Squad Assets
-
-Brand asset management system:
-
-#### File Search and Filter
-- **Search Bar:** Search files by name
-- **Type Dropdown:** Filter by asset type (logos, images, etc.)
-- **Category Dropdown:** Filter by category
-
-#### Asset Grid
-
-Visual display of brand assets:
-- **Asset Cards:** Thumbnail previews of files
-- **File Names:** Descriptive names (e.g., "Badge Slanted - Blue-01.png")
-- **Download Button:** Quick download icon on each card
-- **Multiple Variants:** Different versions of logos and badges
-  - Black versions
-  - Blue versions
-  - Slanted designs
-
-### Features
-
-- Collapsible sections for organized viewing
-- Quick access to all brand materials
-- Downloadable assets
-- Searchable and filterable asset library
+**Why It's Useful:** Designers and marketers can grab the exact asset they need in seconds, ensuring brand consistency across all projects.
 
 ---
 
 ## Settings
 
-The Settings page provides application configuration and user account management.
+Customize your experience and stay updated.
 
-### App Settings Section
+### Appearance
 
-#### Theme
-Dropdown to select application theme:
-- Dark (default shown)
-- Light (available)
-- System (follows OS settings)
+Choose your preferred theme:
+- **Dark:** Easy on the eyes for long work sessions
+- **Light:** Traditional bright interface
+- **System:** Automatically match your computer's theme
 
-### Account Information Section
+### Your Account
 
-Displays current user details:
-- **Username:** Full name and role (e.g., "Jacob Vendramin (R&D Engineer)")
-- **Email:** User email address (e.g., "jacob@churchmediasquad.com")
-- **Department:** User's department (e.g., "Systems Integration Squad")
+View your profile information:
+- Name and role
+- Email address
+- Department
 
-### Changelog Section
+### What's New
 
-Marked with "NEW" badge, provides update information:
+Stay informed about updates:
+- See new features as they're released
+- Read about bug fixes
+- Check the current version number
 
-#### New Features
-- Toggle designer visibility by Design, Video Squad, and Other departments on Designer Scheduling page
-- Cleaned up navigation menu for better visibility and easier navigation
+### Account Actions
 
-#### Bugs Fixed
-- Fixed Designer Scheduling page permissions
-- Fixed Task Actions button layout on Creative Tools page
-- Fixed Block from Auto-Assignment button positioning
-- Fixed internal task viewing bug
-- Cleaned up endpoints for SISX consistency
-- Fixed Refresh Dropbox Folder endpoint bug
-
-#### Version Information
-- Current version displayed (e.g., "Version 1.6.3")
-
-### User Actions
-
-At bottom of settings:
-- **Menu Navigation:** Access to all pages via hamburger menu
-- **User Avatar:** Quick access to:
-  - User profile
-  - Refresh App Data
-  - Sign Out (in red for visibility)
-
-### Navigation Menu
-
-Dropdown showing all available pages:
-- Details
-- Internal Comments
-- Creative Tools
-- Designer Scheduling
-- SM Squad
-- Admin
-- Squad Tools
-- Settings (with checkmark when active)
-
-### Request Feature
-
-Link at bottom to request new features.
+- Refresh app data to sync latest information
+- Sign out when switching accounts
 
 ---
 
-## Navigation
+## Navigation Tips
 
-The extension provides consistent navigation across all pages:
+**Quick Access:**
+- Click the hamburger menu (bottom left) to switch between pages
+- Click your avatar (bottom right) for account options
+- Use "Request a feature" links to suggest improvements
 
-- **Hamburger Menu:** Access to all pages (bottom left)
-- **User Avatar:** Quick access to account actions (bottom right)
-- **Page Indicator:** Current page name displayed
-- **Request Feature:** Available on all pages for user feedback
-
-## Getting Started
-
-1. Download the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/mysquad/accdcbpmoifgecjahfoabamdgjbnmnfb?authuser=0&hl=en)
-2. Pin the extension to your Chrome toolbar
-3. Click the MySquad icon to open
-4. Navigate to any page using the menu at the bottom
-5. Access page-specific features based on your role and permissions
+**Finding What You Need:**
+- **Task info?** → Details page (when viewing a ClickUp task)
+- **Team capacity?** → Designer Scheduling
+- **Brand assets?** → Squad Tools
+- **Account details?** → SM Squad
+- **Credentials?** → Admin
