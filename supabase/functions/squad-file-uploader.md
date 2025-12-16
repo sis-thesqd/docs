@@ -1,3 +1,12 @@
+---
+title: "squad-file-uploader"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["upload", "s3", "dropbox", "files", "multipart"]
+version: "117"
+---
+
 # squad-file-uploader
 
 Uploads files to either S3 or Dropbox with support for large files and chunked uploads.

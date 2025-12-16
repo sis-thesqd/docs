@@ -1,3 +1,12 @@
+---
+title: "verify-contractor-passcode"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["authentication", "contractor", "passcode", "session"]
+version: "15"
+---
+
 # verify-contractor-passcode
 
 Authenticates contractors using a passcode system and creates a Supabase auth session.

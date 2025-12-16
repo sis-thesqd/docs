@@ -1,3 +1,12 @@
+---
+title: "remix-library-search"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["search", "remix", "library", "filtering", "pagination"]
+version: "1"
+---
+
 # remix-library-search
 
 Searches the remix library with advanced filtering, pagination, and sorting capabilities.

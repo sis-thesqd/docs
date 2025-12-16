@@ -1,3 +1,12 @@
+---
+title: "clickup-users-refresh"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["clickup", "sync", "users", "database"]
+version: "93"
+---
+
 # clickup-users-refresh
 
 Synchronizes ClickUp team members with the local database, updating user information and deactivating removed users.

@@ -1,3 +1,12 @@
+---
+title: "match-designs"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["ai", "matching", "embeddings", "design", "similarity"]
+version: "3"
+---
+
 # match-designs
 
 AI-powered design matching using vector embeddings to find visually and contextually similar designs.

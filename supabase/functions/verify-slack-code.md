@@ -1,3 +1,12 @@
+---
+title: "verify-slack-code"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["authentication", "slack", "verification", "session"]
+version: "30"
+---
+
 # verify-slack-code
 
 Verifies a Slack-delivered code and creates an authenticated session for the user.

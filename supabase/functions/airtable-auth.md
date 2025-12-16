@@ -1,3 +1,12 @@
+---
+title: "airtable-auth"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["authentication", "airtable", "salary", "executive"]
+version: "123"
+---
+
 # airtable-auth
 
 Authenticates users against Airtable employee directory and provides salary data access for authorized executives.

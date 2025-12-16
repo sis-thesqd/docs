@@ -1,3 +1,12 @@
+---
+title: "godaddy-proxy"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["proxy", "godaddy", "dns", "api", "rate-limiting"]
+version: "102"
+---
+
 # godaddy-proxy
 
 Secure proxy for GoDaddy API requests, protecting API credentials from client exposure.

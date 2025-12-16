@@ -1,3 +1,12 @@
+---
+title: "get_decrypted_secret"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["security", "vault", "secrets", "decryption"]
+version: "130"
+---
+
 # get_decrypted_secret
 
 Retrieves decrypted secrets from the Supabase vault.

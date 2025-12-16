@@ -1,3 +1,12 @@
+---
+title: "notion-to-md"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["notion", "markdown", "conversion", "export"]
+version: "106"
+---
+
 # notion-to-md
 
 Converts Notion pages to Markdown format with support for rich text formatting and large pages.

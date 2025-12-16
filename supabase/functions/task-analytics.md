@@ -1,3 +1,12 @@
+---
+title: "task-analytics"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["analytics", "tasks", "performance", "metrics"]
+version: "12"
+---
+
 # task-analytics
 
 Provides comprehensive analytics on task performance metrics across different departments and time periods.

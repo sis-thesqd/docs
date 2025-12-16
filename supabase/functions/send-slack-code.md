@@ -1,3 +1,12 @@
+---
+title: "send-slack-code"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["authentication", "slack", "verification", "passwordless"]
+version: "30"
+---
+
 # send-slack-code
 
 Sends a verification code to an employee's Slack account for passwordless authentication.

@@ -1,3 +1,12 @@
+---
+title: "delete-storage-file"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["storage", "delete", "files", "cleanup"]
+version: "6"
+---
+
 # delete-storage-file
 
 Deletes files from Supabase Storage buckets using the file's public URL.

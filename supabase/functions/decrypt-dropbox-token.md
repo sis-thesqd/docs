@@ -1,3 +1,12 @@
+---
+title: "decrypt-dropbox-token"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["encryption", "dropbox", "tokens", "security"]
+version: "150"
+---
+
 # decrypt-dropbox-token
 
 Decrypts Dropbox refresh tokens using AES-GCM encryption.

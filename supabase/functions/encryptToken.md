@@ -1,3 +1,12 @@
+---
+title: "encryptToken"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["encryption", "tokens", "security", "aes-gcm"]
+version: "121"
+---
+
 # encryptToken
 
 Encrypts access tokens using AES-GCM encryption for secure storage.

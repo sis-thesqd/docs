@@ -1,3 +1,12 @@
+---
+title: "uppy-companion"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["uppy", "upload", "s3", "multipart", "files"]
+version: "123"
+---
+
 # uppy-companion
 
 Companion server for Uppy file uploader supporting URL imports and S3 multipart uploads.

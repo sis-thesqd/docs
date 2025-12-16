@@ -1,3 +1,12 @@
+---
+title: "get-project-defaults"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["projects", "defaults", "configuration", "prf"]
+version: "13"
+---
+
 # get-project-defaults
 
 Retrieves saved default selections for a specific account and project type combination.

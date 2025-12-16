@@ -1,3 +1,12 @@
+---
+title: "send-email-code"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["authentication", "email", "verification", "passwordless"]
+version: "17"
+---
+
 # send-email-code
 
 Sends a verification code to an employee's email address for passwordless authentication.

@@ -1,3 +1,12 @@
+---
+title: "get-dropbox-share-link"
+author: "Josh Sorenson"
+date: "2025-12-16"
+last_updated: "2025-12-16"
+tags: ["dropbox", "sharing", "links", "caching"]
+version: "23"
+---
+
 # get-dropbox-share-link
 
 Generates or retrieves public share links for Dropbox folders with caching and fallback token support.
