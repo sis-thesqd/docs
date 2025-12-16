@@ -1,7 +1,7 @@
 # MySquad Chrome Extension
 
-> &nbsp;&nbsp;📥 **Download the MySquad Chrome Extension:**
-> &nbsp;&nbsp;[Chrome Web Store](https://chromewebstore.google.com/detail/mysquad/accdcbpmoifgecjahfoabamdgjbnmnfb?authuser=0&hl=en)
+> &nbsp;&nbsp;&nbsp;&nbsp;📥 &nbsp;&nbsp;**Download the MySquad Chrome Extension:**
+> &nbsp;&nbsp;&nbsp;&nbsp;[Chrome Web Store](https://chromewebstore.google.com/detail/mysquad/accdcbpmoifgecjahfoabamdgjbnmnfb?authuser=0&hl=en)
 
 Your all-in-one tool for managing tasks, assignments, and team operations right from your browser. Access everything you need without switching between tabs or applications.
 
