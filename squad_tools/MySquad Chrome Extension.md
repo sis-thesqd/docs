@@ -4,18 +4,6 @@
 
 Your all-in-one tool for managing tasks, assignments, and team operations right from your browser. Access everything you need without switching between tabs or applications.
 
-# Table of Contents
-
-1. [Getting Started](#getting-started)
-2. [Details](#details)
-3. [Internal Comments](#internal-comments)
-4. [Creative Tools](#creative-tools)
-5. [Designer Scheduling](#designer-scheduling)
-6. [SM Squad](#sm-squad)
-7. [Admin](#admin)
-8. [Squad Tools](#squad-tools)
-9. [Settings](#settings)
-
 ---
 
 ## Getting Started
