@@ -93,3 +93,4 @@ Each execution includes:
 - Returns empty array if no errors in last hour
 - Helpful for identifying problematic workflows quickly
 
+

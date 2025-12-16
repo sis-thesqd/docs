@@ -118,3 +118,4 @@ When called via webhook with missing GI:
 - Scheduled run ensures orphaned records are eventually fixed
 - Properly handles optional creative direction data
 
+

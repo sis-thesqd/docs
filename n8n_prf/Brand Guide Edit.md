@@ -77,3 +77,4 @@ Processes brand guide edit requests submitted through forms, creates ClickUp tas
 - Automatically assigns to designer based on guest email
 - Requires valid email and member ID in URL parameters
 
+

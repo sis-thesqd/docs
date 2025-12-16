@@ -57,3 +57,4 @@ Updates the communications representative (comms_rep) field in the accounts tabl
 - Critical for social media project assignments
 - Ensures designers know who to coordinate with
 
+

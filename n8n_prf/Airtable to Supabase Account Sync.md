@@ -82,3 +82,4 @@ last_synced TIMESTAMP
 - Uses Airtable record ID as primary key
 - Filters ensure only valid accounts synced
 
+

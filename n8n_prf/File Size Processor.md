@@ -124,3 +124,4 @@ Example: `12345_Sermon Series Graphics_template.psd`
 - Removes special characters that could cause issues
 - Waits for File Size record creation by other workflows
 
+

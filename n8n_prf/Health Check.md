@@ -62,3 +62,4 @@ Provides a simple health check endpoint to verify the n8n workflow server is run
 - Can be used to verify n8n instance is running
 - Good practice for production systems
 
+
