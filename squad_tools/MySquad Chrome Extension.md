@@ -1,8 +1,10 @@
 # MySquad Chrome Extension
 
-The MySquad Chrome Extension is a comprehensive tool designed for managing tasks, team members, and various squad operations. It provides quick access to essential features and information directly from your browser.
+> [!NOTE]
+> **Download the MySquad Chrome Extension:**
+> [Chrome Web Store](https://chromewebstore.google.com/detail/mysquad/accdcbpmoifgecjahfoabamdgjbnmnfb?authuser=0&hl=en)
 
-**Download:** [Chrome Web Store](https://chromewebstore.google.com/detail/mysquad/accdcbpmoifgecjahfoabamdgjbnmnfb?authuser=0&hl=en)
+The MySquad Chrome Extension is a comprehensive tool designed for managing tasks, team members, and various squad operations. It provides quick access to essential features and information directly from your browser.
 
 ## Access Permissions
 
