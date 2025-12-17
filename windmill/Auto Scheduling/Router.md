@@ -25,7 +25,8 @@ The Router is the **first step** in the AA26 auto-scheduling pipeline. It analyz
 | `auto_schedule` | ✅ true | Task ready for auto-scheduling |
 | `queued` | ❌ false | No room on account, task queued |
 | `skip` | ❌ false | Auto-assign override is enabled |
-| `process_queued_tasks` | ✅ true | Parent completed, process queued tasks |
+| `process_queued_tasks` | ✅ true | Parent completed, account has room, process queued tasks |
+| `queued_no_room` | ❌ false | Parent completed, has queued tasks but no room to process |
 | `completed_no_queued` | ❌ false | Parent completed, no queued tasks |
 | `move_subtasks` | ✅ true | Parent assigned, subtasks need scheduling |
 | `move_dependent_tasks` | ✅ true | Deliverables needed, dependent tasks ready |
@@ -145,8 +146,15 @@ task_status in completed_statuses?
     │
     ├─▶ YES: Check aa_queued_count from RPC
     │       │
-    │       ├─▶ aa_queued_count > 0
-    │       │       └─▶ Return: process_queued_tasks + optional send_feedback_form
+    │       ├─▶ aa_queued_count > 0: Check room capacity
+    │       │       │
+    │       │       ├─▶ room > 0
+    │       │       │       └─▶ Return: process_queued_tasks + optional send_feedback_form
+    │       │       │                  (includes queued_task_ids array)
+    │       │       │
+    │       │       └─▶ room = 0
+    │       │               └─▶ Return: queued_no_room + optional send_feedback_form
+    │       │                          (process=False unless send_feedback_form applies)
     │       │
     │       └─▶ aa_queued_count = 0
     │               └─▶ Return: completed_no_queued + optional send_feedback_form
