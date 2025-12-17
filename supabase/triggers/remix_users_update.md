@@ -8,3 +8,5 @@ This trigger fires `AFTER DELETE` on the `public.remix_users` table. It directly
 CREATE TRIGGER remix_users_update AFTER DELETE ON public.remix_users FOR EACH ROW EXECUTE FUNCTION supabase_functions.http_request('https://hkdk.events/z0o8owd5gaamw1', 'POST', '{\"Content-type\":\"application/json\",\"type\":\"remix_update_delete\"}', '{}', '5000')
 ```
 
+
+

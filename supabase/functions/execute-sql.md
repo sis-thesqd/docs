@@ -293,3 +293,5 @@ const { data, error } = await supabase
 - Better suited for admin/debugging than production queries
 - For production, prefer Supabase client with type safety
 
+
+

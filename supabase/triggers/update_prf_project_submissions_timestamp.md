@@ -12,3 +12,5 @@ CREATE TRIGGER update_prf_project_submissions_timestamp BEFORE UPDATE ON public.
 
 The `update_timestamp()` function is also used by the `update_prf_general_submissions_timestamp` trigger and is documented [here](supabase/triggers/update_prf_general_submissions_timestamp.md).
 
+
+

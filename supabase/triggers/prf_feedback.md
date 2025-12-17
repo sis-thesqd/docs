@@ -8,3 +8,5 @@ This trigger fires `AFTER INSERT` on the `public.prf_feedback` table. It directl
 CREATE TRIGGER prf_feedback AFTER INSERT ON public.prf_feedback FOR EACH ROW EXECUTE FUNCTION supabase_functions.http_request('https://prf.thesqd.com/webhook/process-feedback', 'POST', '{\"Content-type\":\"application/json\"}', '{}', '5000')
 ```
 
+
+

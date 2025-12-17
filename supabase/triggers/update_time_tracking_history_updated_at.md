@@ -12,3 +12,5 @@ CREATE TRIGGER update_time_tracking_history_updated_at BEFORE UPDATE ON public.t
 
 The `update_updated_at_column()` function is a generic utility function that sets the `updated_at` column of the new or updated row (`NEW`) to the current timestamp (`now()`). This is commonly used in `BEFORE UPDATE` triggers to automatically track the last modification time of a record and is documented [here](supabase/triggers/update_prf_ministry_departments_updated_at.md).
 
+
+

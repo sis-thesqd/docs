@@ -12,3 +12,5 @@ CREATE TRIGGER prf_submission_webhook_update_trigger AFTER UPDATE ON public.prf_
 
 The `send_prf_submission_webhook()` function is also used by the `prf_submission_webhook_insert_trigger` trigger and is documented [here](supabase/triggers/prf_submission_webhook_insert_trigger.md).
 
+
+

@@ -12,3 +12,5 @@ CREATE TRIGGER time_estimate_changes_trigger_jacob_n8n AFTER INSERT ON public.ti
 
 The `notify_task_changes_jacob_n8n()` function is also used by the `assignee_changes_trigger_jacob_n8n` trigger and `task_changes_trigger_jacob_n8n` trigger, and is documented [here](supabase/triggers/assignee_changes_trigger_jacob_n8n.md).
 
+
+

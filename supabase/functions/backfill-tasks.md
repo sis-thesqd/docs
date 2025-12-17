@@ -384,3 +384,5 @@ All tables use upsert with conflict resolution:
 - Comprehensive error collection per task
 - Results include detailed breakdown by table
 
+
+

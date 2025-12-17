@@ -12,3 +12,5 @@ CREATE TRIGGER trigger_sync_plan_requirements_update AFTER UPDATE OF plan_query 
 
 The `sync_plan_requirements()` function is also used by the `trigger_sync_plan_requirements_insert` trigger and is documented [here](supabase/triggers/trigger_sync_plan_requirements_insert.md).
 
+
+

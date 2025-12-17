@@ -270,3 +270,5 @@ SELECT table.column AS alias FROM table
 - RPC function calls identified via regex
 - Code node SQL extraction limited to 500 chars
 
+
+

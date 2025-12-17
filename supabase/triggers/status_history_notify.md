@@ -12,3 +12,5 @@ CREATE TRIGGER status_history_notify AFTER INSERT OR UPDATE ON public.status_his
 
 The `notify_webhook()` function is also used by the `status_history_insert` trigger and is documented [here](supabase/triggers/status_history_insert.md).
 
+
+

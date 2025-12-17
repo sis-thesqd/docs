@@ -46,3 +46,5 @@ GET/POST https://wttgwoxlezqoyzmesekt.supabase.co/functions/v1/clickup-auth
 - Consider migrating to `clickup-auth-v2`
 - See [clickup-auth-v2](./clickup-auth-v2.md) for full documentation
 
+
+

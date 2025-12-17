@@ -19,3 +19,5 @@ CREATE OR REPLACE FUNCTION public.n8n_trigger_function_bf2fc0f0_fd47_49af_a46e_4
 AS $function$ begin perform pg_notify('n8n_channel_bf2fc0f0_fd47_49af_a46e_496ee0b87a69', row_to_json(new)::text); return null; end; $function$
 ```
 
+
+

@@ -8,3 +8,5 @@ This trigger fires `AFTER UPDATE` on the `public.tasks` table. It directly makes
 CREATE TRIGGER task_name_change AFTER UPDATE ON public.tasks FOR EACH ROW EXECUTE FUNCTION supabase_functions.http_request('https://sis2.thesqd.com/webhook/task-name-change', 'POST', '{\"Content-type\":\"application/json\"}', '{}', '5000')
 ```
 
+
+

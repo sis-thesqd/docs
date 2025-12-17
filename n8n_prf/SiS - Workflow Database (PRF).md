@@ -194,3 +194,5 @@ else → null
 - Owner tracking enables accountability
 
 
+
+
