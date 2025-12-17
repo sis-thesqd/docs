@@ -5,6 +5,7 @@ date: "2025-12-17"
 last_updated: "2025-12-17"
 tags: ["auto-scheduler", "router", "classification"]
 version: "1.0.0"
+emoji: "👥"
 ---
 
 # 🚦 AA26 Router
