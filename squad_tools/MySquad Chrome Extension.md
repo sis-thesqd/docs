@@ -5,7 +5,7 @@ date: "2025-12-16"
 last_updated: "2025-12-16"
 tags: ["chrome extension"]
 version: "1.0.0"
-emoji:"💻"
+emoji: "💻"
 ---
 
 # MySquad Chrome Extension
