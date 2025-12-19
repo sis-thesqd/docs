@@ -260,7 +260,8 @@ Extract subtask/dependency information from ClickUp task data.
 
 ---
 
-## ⚙️ Configuration Reference (sis_config)
+<details>
+<summary><h2>⚙️ Configuration Reference (sis_config)</h2></summary>
 
 ### router_config
 
@@ -346,9 +347,12 @@ Template strings supporting these variables:
 - `{parent}` - Parent task ID (for subtask narrative)
 - `{room}` - Available room on account
 
+</details>
+
 ---
 
-## 🗄️ Database Dependencies
+<details>
+<summary><h2>🗄️ Database Dependencies</h2></summary>
 
 ### Tables Read
 
@@ -370,9 +374,12 @@ Template strings supporting these variables:
 |-----|----------|---------|
 | ClickUp | `GET /task/{task_id}?include_subtasks=true` | Fetch task with subtasks and dependencies |
 
+</details>
+
 ---
 
-## 🚀 API Usage Examples
+<details>
+<summary><h2>🚀 API Usage Examples</h2></summary>
 
 ### Basic Task Classification
 ```bash
@@ -457,9 +464,12 @@ curl -X POST https://api.windmill.dev/w/sis/jobs/run/f/aa26_v2/router \
 }
 ```
 
+</details>
+
 ---
 
-## 🎓 Common Scenarios
+<details>
+<summary><h2>🎓 Common Scenarios</h2></summary>
 
 ### Scenario 1: Add a New Completion Status
 
@@ -563,9 +573,12 @@ WHERE name = 'router_config';
    - Is room = 0?
    - Is auto_assign_override enabled?
 
+</details>
+
 ---
 
-## 📊 Performance Optimization
+<details>
+<summary><h2>📊 Performance Optimization</h2></summary>
 
 ### Parallel Fetching
 
@@ -612,10 +625,15 @@ related_tasks = await fetch_multiple_tasks(session, all_related_ids)
 
 **Benefit**: Single batch request instead of N sequential requests
 
+</details>
+
 ---
 
-## 🔗 Related Documentation
+<details>
+<summary><h2>🔗 Related Documentation</h2></summary>
 
 - [AA26 Main Documentation](./AA26.md) - Complete AA26 workflow reference
 - `get_task_auto_assign_data` RPC - Account capacity data source
 - `aa_log` table - Queue management and execution history
+
+</details>
