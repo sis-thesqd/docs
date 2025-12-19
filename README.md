@@ -111,7 +111,113 @@ git commit -m "Update docs"
 - json, yaml, xml
 - css, scss
 - html
+- mermaid (for diagrams - see below)
 - And many more via highlight.js
+
+### Mermaid Diagrams
+
+Create interactive diagrams and flowcharts using Mermaid syntax. Mermaid diagrams are written as code blocks with the `mermaid` language identifier:
+
+````markdown
+```mermaid
+graph TD
+    A[Start] --> B{Is it working?}
+    B -->|Yes| C[Great!]
+    B -->|No| D[Debug]
+    D --> B
+```
+````
+
+**Supported diagram types:**
+
+**Flowcharts:**
+````markdown
+```mermaid
+graph LR
+    A[Square Rect] --> B((Circle))
+    A --> C(Rounded Rect)
+    B --> D{Diamond}
+    C --> D
+```
+````
+
+**Sequence Diagrams:**
+````markdown
+```mermaid
+sequenceDiagram
+    participant User
+    participant API
+    participant Database
+    User->>API: Request data
+    API->>Database: Query
+    Database-->>API: Results
+    API-->>User: Response
+```
+````
+
+**Gantt Charts:**
+````markdown
+```mermaid
+gantt
+    title Project Timeline
+    dateFormat YYYY-MM-DD
+    section Phase 1
+    Task 1           :a1, 2024-01-01, 30d
+    Task 2           :after a1, 20d
+    section Phase 2
+    Task 3           :2024-02-01, 25d
+```
+````
+
+**Entity Relationship Diagrams:**
+````markdown
+```mermaid
+erDiagram
+    USER ||--o{ TASK : creates
+    USER {
+        string id
+        string email
+        string name
+    }
+    TASK {
+        string id
+        string title
+        string status
+    }
+```
+````
+
+**State Diagrams:**
+````markdown
+```mermaid
+stateDiagram-v2
+    [*] --> Idle
+    Idle --> Processing: Start
+    Processing --> Success: Complete
+    Processing --> Failed: Error
+    Success --> [*]
+    Failed --> Idle: Retry
+```
+````
+
+**Pie Charts:**
+````markdown
+```mermaid
+pie title Task Distribution
+    "Completed" : 45
+    "In Progress" : 30
+    "Todo" : 25
+```
+````
+
+**Best practices for Mermaid diagrams:**
+- Keep diagrams simple and focused
+- Use descriptive labels
+- Test complex diagrams before committing
+- Use consistent styling across similar diagrams
+- Break very complex diagrams into multiple smaller ones
+
+**Learn more:** [Mermaid Documentation](https://mermaid.js.org/intro/)
 
 ### Tables
 
